@@ -7,6 +7,8 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="styleshet" rel="modern-normalize" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -18,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styl" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
@@ -32,7 +34,9 @@
           </ul>
         </nav>
         <ul class="contact">
-          <li><a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
           <li><a class="contact-item" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </div>
@@ -51,6 +55,9 @@
         <div class="container">
           <ul class="paragraphs-container">
             <li>
+              <svg class="icons-color">
+                <use href="./images/icons.svg#icon-Group-1"></use>
+              </svg>
               <h3 class="paragraphs-title">LOREM IPSUM</h3>
               <p class="paragraphs-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -139,9 +146,7 @@
           <ul class="adress">
             <li class="street">m. Warszawa, Aleje Jerozolimskie 21</li>
             <li>
-              <a class="contact-info-footer underline" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="contact-info-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li><a href="tel:+48111111111" class="contact-info-footer">+48 111 111 111</a></li>
           </ul>
