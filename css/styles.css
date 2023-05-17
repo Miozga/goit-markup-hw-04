@@ -92,9 +92,12 @@ header {
 /* =====================================INDEX============== */
 .main-section {
   background-color: var(--secondary-background-color);
+  background-image: url(/images/box1.jpg); background: #2F303A66;
+
 }
 .container-slogan {
   text-align: center;
+
 }
 .slogan {
   font-weight: 900;
