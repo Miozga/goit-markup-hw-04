@@ -152,6 +152,11 @@ header {
   letter-spacing: 0.03em;
   padding-bottom: 50px;
 }
+.social-container {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
 .paragraphs-container-secondary {
   gap: 30px;
   display: flex;
@@ -180,7 +185,11 @@ header {
   color: var(--color-grey);
   text-align: center;
 }
-
+.costumers-container {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 /*===========================================PORTFOLIO===========*/
 .button-container {
   display: flex;
