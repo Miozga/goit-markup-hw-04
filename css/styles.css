@@ -92,12 +92,11 @@ header {
 /* =====================================INDEX============== */
 .main-section {
   background-color: var(--secondary-background-color);
-  background-image: url(/images/box1.jpg); background: #2F303A66;
-
+  background-image: url(/images/background.jpg);
+  background: #2f303a66;
 }
 .container-slogan {
   text-align: center;
-
 }
 .slogan {
   font-weight: 900;
@@ -129,6 +128,7 @@ header {
   justify-content: space-between;
 }
 .paragraphs-title {
+  padding-top: 30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -279,8 +279,8 @@ header {
   padding-bottom: 9px;
 }
 
-.icons-colors {
-  /* height: 120px;
+/*.icons-colors {
+ height: 120px;
   width: 270px;
   left: 215px;
   top: 774px;
