@@ -89,9 +89,12 @@ header {
   letter-spacing: 0.02em;
   color: var(--paragraph-text-color);
 }
+.phone {
+  margin-right: 10px;
+  color: var(--color-grey);
+}
 /* =====================================INDEX============== */
 .main-section {
-  background-color: var(--secondary-background-color);
   background-image: url(/images/background.jpg);
   background: #2f303a66;
 }
@@ -155,7 +158,7 @@ header {
 .social-container {
   gap: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .paragraphs-container-secondary {
   gap: 30px;
@@ -186,8 +189,9 @@ header {
   text-align: center;
 }
 .costumers-container {
-  gap: 30px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 /*===========================================PORTFOLIO===========*/
