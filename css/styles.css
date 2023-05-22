@@ -92,11 +92,20 @@ header {
 .phone {
   margin-right: 10px;
   color: var(--color-grey);
+  cursor: pointer;
+  
 }
+.contact-item:hover{
+color: var(--link-color);
+}
+.phone:hover{
+color: var(--link-color);}
 /* =====================================INDEX============== */
 .main-section {
+
   background-image: url(/images/background.jpg);
-  background: #2f303a66;
+background-color: (47, 48, 58, 0.4)
+  max-width: 1600px;
 }
 .container-slogan {
   text-align: center;
@@ -169,11 +178,7 @@ header {
   letter-spacing: 0.03em;
   padding-bottom: 50px;
 }
-.social-container {
-  gap: 10px;
-  display: flex;
-  justify-content: space-around;
-}
+
 .paragraphs-container-secondary {
   gap: 30px;
   display: flex;
@@ -202,12 +207,29 @@ header {
   color: var(--color-grey);
   text-align: center;
 }
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+}
+.box-customers {
+  border: 1px solid #afb1b8;
+  height: 88.041015625px;
+  width: 170px;
+  border-radius: 4px;
+  padding: 14px 32px 14px 32px;
+}
 .costumers-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
+.customers {
+  width: 106px;
+  height: 60.04px;
+}
+
 /*===========================================PORTFOLIO===========*/
 .button-container {
   display: flex;
@@ -233,7 +255,7 @@ header {
   padding-left: 22px;
   padding-right: 22px;
 }
-.button-portfolio:focus {
+.button-portfolio:hover {
   color: white;
   background-color: var(--link-color);
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -249,6 +271,9 @@ header {
 }
 .box-portfolio {
   border: 1px solid rgba(238, 238, 238, 1);
+}
+.box-portfolio:hover{box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
 }
 .title-h3 {
   font-family: var(--main-font);
