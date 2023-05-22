@@ -121,6 +121,20 @@ header {
   margin: 50px 0 104px;
   border-radius: 4px;
 }
+.l-i-container {
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+
+  border-radius: 4px;
+}
+.l-i-icons1 {
+  margin: 25px 102.34px;
+}
+.l-i-icons2 {
+  margin: 25px 100px;
+}
+
 .lorem {
   padding-bottom: 0;
   line-height: 1.14;
