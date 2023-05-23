@@ -232,6 +232,11 @@ header {
   color: white;
   background-color: var(--link-color);
   border-radius: 50%;
+  cursor: pointer;
+}
+.custumers-blue:hover {
+  color: var(--link-color);
+  cursor: pointer;
 }
 /*===========================================PORTFOLIO===========*/
 .button-container {
