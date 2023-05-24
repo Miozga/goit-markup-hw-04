@@ -93,16 +93,25 @@ header {
   margin-right: 10px;
   color: var(--color-grey);
   cursor: pointer;
+  top: 34px;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+.phone-1 {
+  margin-right: 10px;
+  color: var(--color-grey);
+  cursor: pointer;
 }
 .contact-item:hover {
   color: var(--link-color);
 }
-.phone:hover {
+.phone-hover:hover {
   color: var(--link-color);
 }
+
 /* =====================================INDEX============== */
 .main-section {
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-color: (47, 48, 58, 0.4);
   max-width: 1600px;
 }
@@ -349,13 +358,13 @@ header {
   margin-left: 70px;
 }
 .footer-title {
+  font-family: Roboto;
   font-size: 14px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--color-white);
-  justify-content: center;
-  align-items: center;
+  color: rgba(255, 255, 255, 1);
   padding-bottom: 20px;
 }
 /*.icons-colors {
