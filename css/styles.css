@@ -105,9 +105,6 @@ header {
 .contact-item:hover {
   color: var(--link-color);
 }
-.phone-hover:hover {
-  color: var(--link-color);
-}
 
 /* =====================================INDEX============== */
 .main-section {
@@ -230,7 +227,9 @@ header {
   width: 170px;
   border-radius: 4px;
   padding: 14px 32px 14px 32px;
+  cursor: pointer;
 }
+
 .costumers-container {
   display: flex;
   justify-content: space-between;
@@ -352,15 +351,22 @@ header {
 .footer-flex {
   display: flex;
 }
+.social-links-footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-links-footer:hover {
+  color: var(--color-white);
+  background-color: var(--link-color);
+  cursor: pointer;
+}
 .footer-social-container {
+  gap: 50px;
   height: 80px;
   width: 206px;
-  padding-top: 72px;
-  padding-bottom: 100px;
+  padding-top: 12px;
   margin-left: 70px;
 }
 .footer-title {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
